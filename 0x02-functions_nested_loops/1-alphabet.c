@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print alphabet - Entry point
+ * print_alphabet - Entry point
  *
- * Return: void
+ * Return: 0
  */
 
 void print_alphabet(void)
