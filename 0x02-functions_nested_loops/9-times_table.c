@@ -1,8 +1,8 @@
 #include "main"
 
 /**
- * time_table - print the 9 time table, starting with 0
- * Return: Empty output
+ * times_table - print the 9 times table, starting with 0
+ * Return: empty output
  */
 
 void times_table(void)
