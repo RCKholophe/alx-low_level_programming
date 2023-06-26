@@ -2,8 +2,8 @@
 
 /**
  * rev_string - reverse a string
- * @s: input String
- * Return: String in reverse
+ * @s: input string
+ * Return: string in reverse
  */
 void rev_string(char *s)
 {
@@ -17,7 +17,7 @@ void rev_string(char *s)
 	{
 		counter--;
 		rev = s[i];
-		s[1] = s[counter];
+		s[i] = s[counter];
 		s[counter] = rev;
 	}
 }
